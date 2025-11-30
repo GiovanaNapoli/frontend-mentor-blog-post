@@ -87,22 +87,22 @@ main {
   font-weight: 800;
   padding: 8px 4px;
   border-radius: 4px;
-  font-size: 12px;
+  font-size: clamp(12px, 2vw, 14px);
 }
 
 .card__publish-date {
-  font-size: 12px;
+  font-size: clamp(12px, 2vw, 14px);
   color: var(--gray-950);
 }
 
 .card__title {
-  font-size: 20px;
+  font-size: clamp(20px, 2vw, 24px);
   font-weight: 800;
   color: var(--gray-950);
 }
 
 .card__description {
-  font-size: 14px;
+  font-size: clamp(14px, 2vw, 16px);
   color: var(--gray-500);
   line-height: 1.5;
 }
